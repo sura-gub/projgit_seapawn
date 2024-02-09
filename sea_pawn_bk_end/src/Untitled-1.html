@@ -1,0 +1,31 @@
+  <div className='col-md-5' style={{ position: 'relative' }}>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="200"
+    height="200"
+    viewBox="-25 -25 250 250"
+    className="rotate"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      zIndex: 1,
+    }}
+  >
+    <defs>
+      <radialGradient id="rgrad" cx="100%" cy="100%" r="100%">
+        <stop offset="50%" style={{ stopColor: '#f2eb21', stopOpacity: '1.00' }} />
+        <stop offset="100%" style={{ stopColor: '#cea946', stopOpacity: '1.00' }} />
+      </radialGradient>
+    </defs>
+    <path
+      d="M79.67367898600389 2.0875867214172956 C39.654897919631395 4.188595352790381 -7.891028394679299 112.5340430460731 11.928095594677046 147.3639066634041 C32.43161172330525 183.39651187942604 154.748661115649 198.90598575257138 176.93408451147974 163.88385273588696 C202.1896221288883 124.01520646019837 126.80359244462643 -0.3867603809645823 79.67367898600389 2.0875867214172956Z"
+      stroke="none"
+      fill="url(#rgrad)"
+    />
+  </svg>
+
+  <img src={aboutimg} alt='' className='welmg' style={{ width: '70%', height: '80%' }} />
+</div>
